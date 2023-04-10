@@ -1,3 +1,5 @@
+# 큰 수의 법칙 / 연속으로 정할 수 있는 횟수 최대 k,배일의 크기 n 으로 가장 큰 수 k번 더하고 두번째수를 한 번 더 더하는 연산 
+
 n, m, k = map(int,input().split()) 
 data = list(map(int,input().split()))
 
