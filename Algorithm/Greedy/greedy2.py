@@ -1,3 +1,5 @@
+# 각 행마다 가장 작은 수를 찾은 뒤에 그 수 중에서 가장 큰 수를 찾는 것
+
 # min() 험수 이용
 n, m = map(int,input().split())
 result  = 0 
