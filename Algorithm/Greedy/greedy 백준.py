@@ -1,4 +1,14 @@
 # 5585
+m = int(input())
+n = 1000 - m
+
+result = 0
+list = [500, 100, 50, 10, 5, 1]
+
+for coin in list :
+    result += n//coin
+    n %= coin
+print(result)
 
 # 10162
 
