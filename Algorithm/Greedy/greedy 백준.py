@@ -33,7 +33,8 @@ while True:
   print("Case {}: {}".format(i, result))
   i += 1
 
-# 2864
+# 2864 
+# 1일1커밋 힘들다
 
 # 2720
 
