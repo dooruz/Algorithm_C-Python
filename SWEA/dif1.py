@@ -17,6 +17,14 @@
 #     # f를 붙이는 이유는 문자열로 포매팅 하는 것 ex(f'문자열{변수} 문자열')
 #     print(f'#{(i+1)} {answers[i]}')
 
+# # 정답
+# t = int(input())
+
+# for i in range (1, t+1):
+#     num = list(map(int, input().split()))
+#     result = sum([j for j in num if j % 2 != 0])
+#     print(f'#{i}', result)
+
 # 2071 평균값 구하기
 # t = int(input())
 # answers = []
@@ -33,6 +41,14 @@
 
 # for i in range(t):
 #     print(f'#{(i+1)} {answers[i]}')
+
+#정답
+# t = int(input())
+# for i in range (1, t+1) :
+#     numlist = list(map(int,input().split()))
+#     answer = round(sum(numlist)/10)
+#     print('#{} {}'. format(i, answer))
+
 
 #2070 큰놈 작은놈 같은놈
 # t = int(input())
@@ -61,6 +77,18 @@
 #     print(f'#{(i+1)} {answers[i]}')
 #     #print('#'+(i+1), answers[i])
 
+#정답
+# t = int(input())
+# for i in range(t) :
+#     a, b = list(map(int,input().split()))
+#     if a<b :
+#         print('#'+str(i+1), '<')
+#     elif a>b :
+#         print('#'+str(i+1), '>')
+#     elif a == b :
+#         print('#'+str(i+1), '=')
+
+
 # 최대수 구하기
 # 중간값 찾기
 # 자릿수 더하기
@@ -85,6 +113,21 @@
 # mul = a*b
 # div = a//b
 # print(sum, sub, mul, div, sep="\n")
+
+#정답
+# from collections import deque
+# import math
+# import heapq
+ 
+# deq = deque()
+ 
+# a, b = map(int, input().split())
+# deq.append(a)
+# deq.append(b)
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a//b)
 
 # 스탬프 찍기
 # n = int(input())
@@ -161,4 +204,4 @@
 #     if n % i == 0 :
 #         a.append(i)
 # a.sort()
-# print(a)
+# print(*a) #* 표시는 리스트 안 값만 표시하는 것
