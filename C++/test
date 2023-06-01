@@ -1,0 +1,12 @@
+using system;
+
+namespace Test 
+{
+    class T
+    {
+        static void Main(strint[] args)
+        {
+            Consol.WriteLine("Hello World");
+        }
+    }
+}
