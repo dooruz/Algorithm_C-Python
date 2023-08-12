@@ -1,22 +1,14 @@
 # TIL
 Today I learned
 
-# Algorithm
-### Greedy
-현재 상황에서 지금 당장 가장 좋은 것을 고르는 알고리즘 (창의력 요구)
-주로 정렬 알고리즘과 짝을 이루며 힌트를 줌 (가장 큰/작은 순서대로)
-대부분의 그리디는 최소한의 아이디어를 떠올리고 정당한지 검토가 가능해야 한다.
-
-그리디의 가장 기본적인 예제 -> 거스름 돈 (동전의 최소 갯수 구하기 = 가장 큰 화폐 단위)
-
-    n = 1260 # n = 잔돈
-    count =0
-    list = [500, 100, 50, 10]
-
-    for coin in list :
-        count += n //coin
-        n %= coin
-    
-    print(count)
-
+### 0812
+코테를 위해 급하게 SRL 정리
+1. pair
+2. vector
+3. queue
+4. stack
+5. set
+6. map
+7. priority queue
+8. 추가로 sort, 문자열
 ------------------------
