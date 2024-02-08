@@ -1,5 +1,4 @@
-# TIL
-Today I learned
+# C++ algorithm study
 
 ### 0812
 코테를 위해 급하게 SRL 정리
